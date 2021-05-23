@@ -1,0 +1,204 @@
+    body{
+        margin:0;
+        padding: 0;
+        background: rgb(88,87,87);
+        background: linear-gradient(86deg, rgba(88,87,87,1) 0%, rgba(117,116,116,1) 33%, rgba(119,118,118,1) 66%, rgba(88,87,87,1) 100%);
+    }
+    #banner {
+        margin: 0; 
+        position: relative;    
+        height: 350px;
+        background-image: url(imagenes/imagen\ fondo.jpg);
+        float: left;
+        width: 100%;
+    }
+    #perfil {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 75px;
+        right: 100px;
+        border-radius: 50%;
+    }
+    #banner h1{
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 120px;
+        top: -10px;
+        left: 50px;
+        color: white;
+    }
+    #banner h2{
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 25px;
+        top: 205px;
+        left: 150px;
+        color: white;
+    }
+    #redes {
+        position: absolute;
+        display: flex;
+        top: 10px;
+        float: bottom;
+        right: 100px;
+        width: 200px;
+        justify-content: space-between;
+    }
+    #redes img{
+        width: 50px;
+        height: 50px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        bottom: 0%; 
+        font-family: sans-serif;
+        font-size: 20px; 
+        align-items: center; 
+        background: rgb(189,189,189);
+        background: linear-gradient(232deg, rgba(189,189,189,0.2329306722689075) 0%, rgba(71,71,71,0.3841911764705882) 92%);    
+    }
+    nav a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    nav a:hover{
+        background-color: white;
+        padding: 15px;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .seccion{
+        float: left;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h3{
+        text-align: center;
+        position: relative;
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    *{box-sizing: border-box;}
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .titu{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .textu{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    hr{
+        border: 2px solid black;
+    }
+    #herramientas {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .herr1{
+        text-align: center;
+        position: relative;
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #logohtml{
+        width: 150px;
+        height: 150px;
+        position: relative;
+    }
+    #logocss{
+        width: 130px;
+        height: 130px;
+        position: relative;
+        top: 15px;
+        float: left;
+    }
+    .areas {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+    }
+    .logos{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .loguito{
+        height: 80px;
+        width: 80px;
+    }
+    #admini{
+        width: 250px;
+        height: 80px;
+        position: absolute;
+        right: 210px;
+    }
+    .puesto {
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        text-decoration: underline;  
+        position: relative;
+        left: 40px;
+    }
+    .empresa{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        top: -25px;
+    }
+    .descripcion{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        position: relative;
+        left: 50px;
+        top: -40px;
+    }
+    #conta{
+        position: relative;
+        display: flex;
+        float: bottom;
+        justify-content: space-around;
+        padding: 20px;
+        bottom: 25px;
+    }
+    .subco{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        position: relative;
+        top: -25px;
+    }
+    #conta img{
+        width: 100px;
+        height: 100px;
+    }
+    #footer{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 1px;        
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
